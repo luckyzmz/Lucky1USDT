@@ -1,0 +1,6 @@
+Lucky1USDT Draw Mechanism:
+- Dynamically splits any mainstream cryptocurrency (price > 1 USDT, e.g., SOL, ETH, BTC, BNB, XMR, LTC, BCH, AAVE) into 1 USDT shares using Chainlink Price Feeds.
+- Users purchase shares via USDT on Polygon.
+- Fair draw conducted via Chainlink VRF.
+- USDT converted to target cryptocurrency via QuickSwap.
+- Non-winners receive ODC (1 USDT = 1 ODC, 100 ODC = 1 USDT).
