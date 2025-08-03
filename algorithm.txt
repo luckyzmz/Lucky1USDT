@@ -1,0 +1,7 @@
+Dynamic Share Allocation Algorithm:
+1. Fetch real-time price of any mainstream cryptocurrency (price > 1 USDT) using Chainlink Price Feeds.
+2. Calculate shares: totalShares = floor(price / 1 USDT).
+3. Record user shares (1 USDT = 1 share) in smart contract on Polygon.
+4. Execute fair draw using Chainlink VRF.
+5. Convert pooled USDT to target cryptocurrency via QuickSwap Router.
+6. Distribute cryptocurrency to winner; issue 1 ODC per USDT to non-winners.
